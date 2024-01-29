@@ -1,7 +1,7 @@
-import $ from "jQuery";
+import $ from 'jquery';
 
-$('body').('<p>Holberton Dashboard</p>')
+$('body').append('<p>Holberton Dashboard</p>')
 
-$('body').('<p>Dashboard data for the students</p>')
+$('body').append('<p>Dashboard data for the students</p>')
 
-$('body').('<p>Copyright - Holberton School</p>')
+$('body').append('<p>Copyright - Holberton School</p>')
