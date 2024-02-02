@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+
+.App-con {
+  background-color: white;
+  --main-color: #e0354b;
+}
+
+/* App header */
+
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom: .2rem solid var(--main-color);
+}
+
+
+.App-title {
+  color: var(--main-color);
+}
+
+.App-logo {
+  height: 10rem;
+}
+
+/* App body */
+
+.App-body {
+  height: 45vh;
+  padding: 4rem;
+}
+
+
+.Email, .Password {
+  margin-bottom: 1rem;
+}
+
+.Email label, .Password label{
+  margin-right: 1rem;
+}
+
+.Ok-btn {
+  cursor: pointer;
+}
+
+
+/* App footer */
+.App-footer {
+  border-top: .2rem solid var(--main-color);
+  text-align: center;
+
+}
+
+.Footer-text {
+  font-style: italic;
+}
+
+
+
