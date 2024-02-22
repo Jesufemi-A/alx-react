@@ -15,11 +15,11 @@ function App() {
         <form>
           <div className="Email">
             <label for="email">Email</label>
-            <input type="email" id="email"></input>
+            <input type="email" id="email"/>
           </div>
           <div className="Password">
             <label for="password">Password</label>
-            <input type="type" id="password"></input>
+            <input type="type" id="password"/>
           </div>
           <button type="submit" className="Ok-btn">Ok</button>
         </form>
